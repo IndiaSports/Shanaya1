@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shanaya Malik™ | Prediction</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:#fff;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+
+/* MAIN */
+.wrap{
+max-width:420px;
+width:100%;
+padding:20px 15px 90px;
+}
+
+/* CARD */
+.card{
+background:rgba(15,23,42,0.9);
+border-radius:20px;
+padding:20px;
+margin-bottom:15px;
+text-align:center;
+box-shadow:0 8px 25px rgba(0,0,0,0.4);
+border:1px solid rgba(255,255,255,0.05);
+}
+
+/* DP */
+.dp{
+width:110px;height:110px;
+margin:0 auto 12px;
+border-radius:50%;
+overflow:hidden;
+border:3px solid #ffb6c1;
+}
+
+.dp img{
+width:100%;height:100%;object-fit:cover;
+}
+
+/* NAME */
+.name{
+font-size:26px;
+font-weight:600;
+color:#ffccd5;
+}
+
+/* SUB */
+.sub{
+font-size:13px;
+color:#ddd;
+margin-top:5px;
+}
+
+/* HEART TEXT */
+.heart{
+color:#ff4d6d;
+}
+
+/* HOOK */
+.hook{
+font-size:20px;
+font-weight:600;
+margin-bottom:10px;
+color:#ffc2d1;
+}
+
+/* DESC */
+.desc{
+font-size:14px;
+color:#cbd5e1;
+line-height:1.5;
+}
+
+/* STATS */
+.stats{
+display:flex;
+gap:10px;
+margin:15px 0;
+}
+
+.stat{
+flex:1;
+background:#020617;
+padding:10px;
+border-radius:12px;
+font-size:12px;
+}
+
+.stat b{
+display:block;
+color:#ff8fab;
+font-size:18px;
+}
+
+/* BUTTON */
+.btn{
+display:block;
+margin:18px auto 0;
+padding:14px;
+border-radius:40px;
+background:linear-gradient(135deg,#ff8fab,#ff4d6d);
+color:#fff;
+font-weight:600;
+text-decoration:none;
+text-align:center;
+transition:.2s;
+box-shadow:0 5px 15px rgba(255,77,109,0.4);
+}
+
+.btn:active{transform:scale(.95)}
+
+/* BOTTOM BAR */
+.bottom{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+padding:12px;
+background:#020617;
+text-align:center;
+}
+
+.footer-btn{
+display:block;
+margin:auto;
+max-width:420px;
+padding:14px;
+border-radius:40px;
+background:linear-gradient(135deg,#ff4d6d,#ff758f);
+color:#fff;
+font-weight:600;
+text-decoration:none;
+}
+
+/* TIMER */
+.timer{
+font-size:12px;
+margin-top:10px;
+color:#aaa;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="wrap">
+
+<!-- PROFILE -->
+<div class="card">
+<div class="dp">
+<img src="https://d1yei2z3i6k35z.cloudfront.net/13184094/69ceeff1d6e694.11926680_download3.jfif">
+</div>
+
+<div class="name">Shanaya Malik™ 💖</div>
+<div class="sub">India’s Trusted Cricket Channel 🏏</div>
+</div>
+
+<!-- MAIN -->
+<div class="card">
+
+<div class="hook">💖 Daily Winning Predictions</div>
+
+<div class="desc">
+Match • Toss • Session tips 💎 <br>
+Trusted by thousands of users ❤️ <br>
+Simple & safe predictions everyday
+</div>
+
+<div class="stats">
+<div class="stat"><b>94%</b>Accuracy</div>
+<div class="stat"><b>22K+</b>Users</div>
+<div class="stat"><b>Daily</b>Tips</div>
+</div>
+
+<a href="https://t.me/+MFQ9Xrk43NQ5YTRl" class="btn">
+💖 JOIN TELEGRAM NOW
+</a>
+
+<div class="timer" id="timer">⏳ Redirecting in 6s</div>
+
+</div>
+
+</div>
+
+<!-- BOTTOM -->
+<div class="bottom">
+<a href="https://t.me/+MFQ9Xrk43NQ5YTRl" class="footer-btn">
+💌 JOIN FREE CHANNEL
+</a>
+</div>
+
+<script>
+let t=6;
+let el=document.getElementById("timer");
+
+let x=setInterval(()=>{
+t--;
+if(el) el.innerText="⏳ Redirecting in "+t+"s";
+if(t<=0){
+clearInterval(x);
+window.location.href="https://t.me/+MFQ9Xrk43NQ5YTRl";
+}
+},1000);
+</script>
+
+</body>
+</html>
