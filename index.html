@@ -4,38 +4,49 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shanaya Malik™ | Prediction</title>
+<title>Shanaya Malik™</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
 
 body{
-background:linear-gradient(135deg,#0f172a,#1e293b);
+font-family:Poppins,sans-serif;
 color:#fff;
 display:flex;
 justify-content:center;
 align-items:center;
 min-height:100vh;
+background:url('https://files.123freevectors.com/wp-content/original/145991-cool-pink-lights-background.jpg') no-repeat center/cover;
 }
 
-/* MAIN */
+/* DARK OVERLAY FOR READABILITY */
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background:rgba(0,0,0,0.5);
+z-index:-1;
+}
+
+/* WRAP */
 .wrap{
 max-width:420px;
 width:100%;
-padding:20px 15px 90px;
+padding:20px;
 }
 
-/* CARD */
+/* GLASS CARD */
 .card{
-background:rgba(15,23,42,0.9);
-border-radius:20px;
+background:rgba(255,255,255,0.2);
+backdrop-filter:blur(12px);
+border-radius:22px;
 padding:20px;
 margin-bottom:15px;
 text-align:center;
-box-shadow:0 8px 25px rgba(0,0,0,0.4);
-border:1px solid rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.3);
+box-shadow:0 10px 40px rgba(0,0,0,0.5);
 }
 
 /* DP */
@@ -44,30 +55,30 @@ width:110px;height:110px;
 margin:0 auto 12px;
 border-radius:50%;
 overflow:hidden;
-border:3px solid #ffb6c1;
+border:3px solid #ff9eb5;
+box-shadow:0 0 25px rgba(255,105,135,0.6);
 }
 
 .dp img{
 width:100%;height:100%;object-fit:cover;
 }
 
-/* NAME */
+/* NAME LUXURY */
 .name{
-font-size:26px;
+font-family:'Playfair Display',serif;
+font-size:28px;
 font-weight:600;
-color:#ffccd5;
+background:linear-gradient(90deg,#fff,#ffd1dc,#ff8fab);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+letter-spacing:1px;
 }
 
 /* SUB */
 .sub{
 font-size:13px;
-color:#ddd;
-margin-top:5px;
-}
-
-/* HEART TEXT */
-.heart{
-color:#ff4d6d;
+margin-top:6px;
+color:#ffe4ec;
 }
 
 /* HOOK */
@@ -75,14 +86,14 @@ color:#ff4d6d;
 font-size:20px;
 font-weight:600;
 margin-bottom:10px;
-color:#ffc2d1;
+color:#fff;
 }
 
 /* DESC */
 .desc{
 font-size:14px;
-color:#cbd5e1;
-line-height:1.5;
+line-height:1.6;
+color:#ffe4ec;
 }
 
 /* STATS */
@@ -94,7 +105,7 @@ margin:15px 0;
 
 .stat{
 flex:1;
-background:#020617;
+background:rgba(0,0,0,0.3);
 padding:10px;
 border-radius:12px;
 font-size:12px;
@@ -102,7 +113,7 @@ font-size:12px;
 
 .stat b{
 display:block;
-color:#ff8fab;
+color:#ffb3c6;
 font-size:18px;
 }
 
@@ -112,13 +123,13 @@ display:block;
 margin:18px auto 0;
 padding:14px;
 border-radius:40px;
-background:linear-gradient(135deg,#ff8fab,#ff4d6d);
+background:linear-gradient(135deg,#ff4d6d,#ff8fab);
 color:#fff;
 font-weight:600;
 text-decoration:none;
 text-align:center;
 transition:.2s;
-box-shadow:0 5px 15px rgba(255,77,109,0.4);
+box-shadow:0 6px 20px rgba(255,77,109,0.5);
 }
 
 .btn:active{transform:scale(.95)}
@@ -130,8 +141,8 @@ bottom:0;
 left:0;
 width:100%;
 padding:12px;
-background:#020617;
-text-align:center;
+background:rgba(0,0,0,0.7);
+backdrop-filter:blur(10px);
 }
 
 .footer-btn{
@@ -144,13 +155,14 @@ background:linear-gradient(135deg,#ff4d6d,#ff758f);
 color:#fff;
 font-weight:600;
 text-decoration:none;
+text-align:center;
 }
 
 /* TIMER */
 .timer{
 font-size:12px;
 margin-top:10px;
-color:#aaa;
+color:#ffd6e0;
 }
 </style>
 
@@ -166,18 +178,18 @@ color:#aaa;
 <img src="https://d1yei2z3i6k35z.cloudfront.net/13184094/69ceeff1d6e694.11926680_download3.jfif">
 </div>
 
-<div class="name">Shanaya Malik™ 💖</div>
-<div class="sub">India’s Trusted Cricket Channel 🏏</div>
+<div class="name">Shanaya Malik™ ♥️</div>
+<div class="sub">♥️ India’s Trusted Prediction Queen</div>
 </div>
 
 <!-- MAIN -->
 <div class="card">
 
-<div class="hook">💖 Daily Winning Predictions</div>
+<div class="hook">♥️ Daily Winning Predictions</div>
 
 <div class="desc">
 Match • Toss • Session tips 💎 <br>
-Trusted by thousands of users ❤️ <br>
+Trusted by thousands of users ♥️ <br>
 Simple & safe predictions everyday
 </div>
 
@@ -188,7 +200,7 @@ Simple & safe predictions everyday
 </div>
 
 <a href="https://t.me/+MFQ9Xrk43NQ5YTRl" class="btn">
-💖 JOIN TELEGRAM NOW
+♥️ JOIN TELEGRAM NOW
 </a>
 
 <div class="timer" id="timer">⏳ Redirecting in 6s</div>
